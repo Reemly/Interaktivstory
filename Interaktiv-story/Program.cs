@@ -79,7 +79,7 @@ if (Go == "right")
 else if (Go == "left")
 {
     Console.WriteLine("You walk towards the Left Hallway.");
-    System.Console.WriteLine("It's a spacious room filled with flammable books stacked to the roof, there is a rough path through the books in the middle, Enter or Leave?");
+    System.Console.WriteLine("It's a spacious room filled with flammable books stacked up to the ceiling, there is a rough path through the books in the middle, Enter or Leave?");
 
     string Walk = Console.ReadLine();
     Walk = Walk.ToLower();
@@ -90,12 +90,23 @@ else if (Go == "left")
 
         string Open = Console.ReadLine();
 
-        if (Open == "Open")
+        if (Open == "open")
         {
-            System.Console.WriteLine("");
+            System.Console.WriteLine("It's a Mimic, you get eaten and die.");
             Console.ReadLine();
         }
-        //make an if else = destroy
+
+        if (Open == "destroy")
+        {
+            System.Console.WriteLine("You destroy the chest making guts go everywhere, It was a Mimic! Lucky you decided to destroy it istead of opening it. You pick up the Mimic guts and recall back.");
+            Console.ReadLine();
+
+
+
+        }
+
+        
+        
     
 
     }
