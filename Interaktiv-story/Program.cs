@@ -98,7 +98,7 @@ else if (Go == "left")
 
         if (Open == "destroy")
         {
-            System.Console.WriteLine("You destroy the chest making guts go everywhere, It was a Mimic! Lucky you decided to destroy it istead of opening it. You pick up the Mimic guts and recall back.");
+            System.Console.WriteLine("You destroy the chest making guts go everywhere, It was a Mimic! Lucky you decided to destroy it instead of opening it. You pick up the Mimic guts and recall back.");
             Console.ReadLine();
 
 
